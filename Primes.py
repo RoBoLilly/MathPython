@@ -44,15 +44,30 @@ def GCD(x, y) :
 # Examples
 
 
+print("factors(6) = ", factors(6))
+print("factors(64) = " , factors(64))
+print("factors(36) = ", factors(36))
+print("factors(19) = ", factors(19))
 
+print("isPrime(6) = ", isPrime(6))
+print("isPrime(64) = " , isPrime(64))
+print("isPrime(36) = ", isPrime(36))
+print("isPrime(19) = ", isPrime(19))
+
+print("commonFactors(54, 4) = ", commonFactors(54, 4))
+print("commonFactors(23, 3) = ", commonFactors(23, 3))
+print("commonFactors(64, 128) = ", commonFactors(64, 128))
+print("commonFactors(512, 43) = ", commonFactors(512, 43))
+
+
+print("Primes from 1 to (30) = ", primes(30))
 
 print("GCD(2021, 4465) = ", GCD(2021, 4465))
 print("GCD(9, 15) = ", GCD(9, 15))
+print("GCD(10, 15) = ", GCD(1, 15))
 
 
-print("factors(15)", factors(15))
 
-print("commonFactors(512, 43) = ", commonFactors(512, 43))
             
 
 
